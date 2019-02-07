@@ -1,14 +1,14 @@
 {
-  "name": "Merito",
-  "productName": "Merito",
-  "identifier": "com.merito",
-  "description": "Merito",
-  "version": "1.1.5",
+  "name": "MeritoC",
+  "productName": "MeritoCrypto",
+  "identifier": "com.meritoc",
+  "description": "Merito Crypto Ether",
+  "version": "0.1.1",
   "author": "Merito",
   "main": "main.js",
   "config": {
     "target": "release",
-    "versionCheckURL": "https://raw.githubusercontent.com/werwercat/Merito-Client/master/package.json"
+    "versionCheckURL": "https://raw.githubusercontent.com/werwercat/Merito-Client-Crypto/package.json"
   },
   "scripts": {
     "postinstall": "./node_modules/.bin/electron-rebuild -w @paulcbetts/system-idle-time -p"
